@@ -1,0 +1,13 @@
+Assistant checkpoint: Fixed infinite loop and button layout issues
+
+Assistant generated file changes:
+- src/components/PriceCalculator.js: Fix infinite loop and button layout issues, Remove duplicate useEffect and fix coverage check, Fix button layout in calculator, Fix form layout structure, Fix button spacing in results section
+
+---
+
+User prompt:
+
+corrija o erro dos botoes ume mecima do outro.
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: 4e2680d5-c146-40a7-8608-a34720ebeb90

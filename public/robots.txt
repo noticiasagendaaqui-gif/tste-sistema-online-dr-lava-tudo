@@ -1,0 +1,7 @@
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cliente/
+
+Sitemap: https://limpabrasil.com.br/sitemap.xml

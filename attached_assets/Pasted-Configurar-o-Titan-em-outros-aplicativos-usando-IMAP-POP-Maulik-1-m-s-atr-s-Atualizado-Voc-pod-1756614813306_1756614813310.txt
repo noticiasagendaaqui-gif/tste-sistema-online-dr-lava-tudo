@@ -1,0 +1,71 @@
+Configurar o Titan em outros aplicativos usando IMAP/POP
+
+Maulik
+1 mês atrás Atualizado
+Você pode configurar o Titan em outros aplicativos de e-mail (clientes de terceiros), como Outlook, Thunderbird, Apple Mail e outros, por meio de configurações IMAP ou POP. Continue lendo para saber mais.
+
+Se sua conta Titan for gerenciada pela GoDaddy , entre em contato com o Suporte da GoDaddy para obter ajuda com a configuração de IMAP/POP.
+Se sua conta Titan for gerenciada pelo Blacknight, MonoVM, DomainDiscount24, Fluccs ou Domain Central , consulte este artigo para obter as etapas de configuração IMAP/POP específicas do provedor.
+Para configurar o Titan em aplicativos de terceiros, o acesso a e-mails de terceiros deve estar habilitado. Saiba mais aqui . 
+ 
+
+Etapas para configurar o Titan para os seguintes aplicativos:
+
+Panorama
+Gmail
+Pássaro Trovão
+iPhone/ iPad
+Apple Mail no macOS
+Andróide
+Para configurar o Titan em um cliente/aplicativo de e-mail não listado acima, use as configurações abaixo: 
+
+Configurar usando IMAP
+Configurar usando POP
+Configurar usando IMAP
+Endereço de e-mail            : Seu endereço Titan , por exemplo: jack@<domainName>
+
+Senha                    : Sua senha do Titan
+
+Nome de usuário (se solicitado)  : Seu endereço Titan , por exemplo: jack@<domainName>
+
+Servidor de entrada:  imap.titan.email
+
+Porta:  993
+
+Método de criptografia:  SSL/TLS
+
+Servidor de saída:  smtp.titan.email
+
+Porta:  465
+
+Método de criptografia:  SSL/TLS
+
+ 
+Configurar usando POP
+Endereço de e-mail            : Seu endereço Titan , por exemplo: jack@<domainName>
+
+Senha                    : Sua senha do Titan
+
+Nome de usuário (se solicitado)  : Seu endereço Titan , por exemplo: jack@<domainName>
+
+Servidor de entrada:  pop.titan.email
+
+Porta:  995
+
+Método de criptografia:  SSL/TLS
+
+Servidor de saída:  smtp.titan.email
+
+Porta:  465
+
+Método de criptografia:  SSL/TLS
+
+Quando a conta de e-mail é configurada usando um servidor POP, os e-mails são buscados do servidor para o cliente de terceiros. Portanto, os e-mails serão visíveis apenas no cliente de terceiros e não no webmail ou aplicativo Titan.
+ 
+
+Para a segurança da sua conta, o acesso a clientes de terceiros será bloqueado se a Autenticação de Dois Fatores estiver ativada. Para desativar a Autenticação de Dois Fatores, siga as instruções neste artigo.
+ 
+
+Caso tenha alguma dúvida, entre em contato conosco pelo e -mail support@titan.email .
+
+Facebook Twitter LinkedIn
